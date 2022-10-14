@@ -9,12 +9,13 @@
 * npm run migrations:run
 * npm run migrations:generate add-role
 * npm run migrations:generate create-customers
+* npm run migrations:generate products
 
 # Relations
 
 * HasOne A -> B
 * BelongsTo A <- B
-* 
+* HasMany A -> B
 
 # Migrations
 * await queryInterface.changeColumn(CUSTOMER_TABLE, 'user_id', { props })
