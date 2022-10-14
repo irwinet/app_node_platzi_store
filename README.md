@@ -37,3 +37,4 @@
     - heroku addons:docs heroku-postgresql to view documentation
 * heroku pg:info
 * git push heroku production:main
+* heroku run npm run migrations:run
