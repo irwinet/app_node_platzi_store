@@ -11,6 +11,7 @@
 * npm run migrations:generate create-customers
 * npm run migrations:generate products
 * npm run migrations:generate order
+* npm run migrations:generate order-product
 
 # Relations
 
