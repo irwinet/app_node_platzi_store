@@ -27,3 +27,12 @@
 * Limit = 2  : Numero de elementos que me traiga
 * Offset = 0 : Cuantos quiero escapar, inicia en 0 luego tomar el apuntador se queda donde el ultimo registro
                y de hay empieza a contar los elementos segun el LIMIT
+
+# Deploy
+* https://www.heroku.com/postgres
+* https://www.digitalocean.com/
+* https://elements.heroku.com/addons/heroku-postgresql
+* heroku git:remote -a PROJECT_ID
+* heroku addons:create heroku-postgresql:hobby-dev
+    - heroku addons:docs heroku-postgresql to view documentation
+* heroku pg:info
