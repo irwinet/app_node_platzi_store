@@ -22,3 +22,8 @@
 
 # Migrations
 * await queryInterface.changeColumn(CUSTOMER_TABLE, 'user_id', { props })
+
+# Pagination
+* Limit = 2  : Numero de elementos que me traiga
+* Offset = 0 : Cuantos quiero escapar, inicia en 0 luego tomar el apuntador se queda donde el ultimo registro
+               y de hay empieza a contar los elementos segun el LIMIT
