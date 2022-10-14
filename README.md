@@ -36,3 +36,4 @@
 * heroku addons:create heroku-postgresql:hobby-dev
     - heroku addons:docs heroku-postgresql to view documentation
 * heroku pg:info
+* git push heroku production:main
